@@ -19,9 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 
 # Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/j5x-common/j5x-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/j3x-common/j3x-common-vendor.mk)
 
-LOCAL_PATH := device/samsung/j5x-common
+LOCAL_PATH := device/samsung/j3x-common
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -37,4 +37,4 @@ ifneq ($(CM_UPDATER_OTA_URI),)
 endif
 
 # Inhert dalvik heap values from aosp
-$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)

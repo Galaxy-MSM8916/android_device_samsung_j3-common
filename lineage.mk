@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Samsung Galaxy J5 2016
+PRODUCT_RELEASE_NAME := Samsung Galaxy J3 Pro
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720

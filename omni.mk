@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Samsung Galaxy J5 2016
+PRODUCT_RELEASE_NAME := Samsung Galaxy J3 Pro
 CM_BUILDTYPE := NIGHTLY
 
 # Boot animation
