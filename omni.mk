@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Samsung Galaxy J3 Pro
+PRODUCT_RELEASE_NAME := Samsung Galaxy J3
 CM_BUILDTYPE := NIGHTLY
 
 # Boot animation

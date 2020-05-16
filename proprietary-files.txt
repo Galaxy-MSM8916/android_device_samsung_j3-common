@@ -1,7 +1,13 @@
-# Sensors from J3110ZCU1ARA4 (Android 5.1)
-lib/hw/sensors.vendor.msm8916.so
+# ACDB from J3109KES1ARG1 (Android 5.1)
+etc/Bluetooth_cal.acdb
+etc/General_cal.acdb
+etc/Global_cal.acdb
+etc/Handset_cal.acdb
+etc/Hdmi_cal.acdb
+etc/Headset_cal.acdb
+etc/Speaker_cal.acdb
 
-# Camera from J3110ZCU1ARA4 (Android 5.1)
+# Camera from J3109KES1ARG1 (Android 5.1)
 etc/B05QL_s5k5e3yx_module_info.xml
 etc/L08QL_s5k4h5yc_module_info.xml
 lib/hw/camera.vendor.msm8916.so
@@ -13,6 +19,7 @@ lib/libAl_Awb_Sp.so
 lib/libawb_algo_front_al.so
 lib/libawb_algo_rear_al.so
 lib/libmmcamera2_stats_algorithm.so
+lib/libmmcamera_cac2_lib_13M.so
 lib/libmmcamera_wavelet_lib.so
 lib/libTsAlsc.so
 vendor/lib/libactuator_dw9804_e5_camcorder.so
@@ -66,7 +73,7 @@ vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
 
-# QMI from J3110ZCU1ARA4 (Android 5.1)
+# QMI from J3109KES1ARG1 (Android 5.1)
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so

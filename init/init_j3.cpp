@@ -37,15 +37,10 @@ void init_target_properties(void)
 	/* get the bootloader string */
 	std::string bootloader = android::base::GetProperty("ro.bootloader", "");
 
-	if (bootloader.find("J3110") == 0) {
-                device = (char *)"j3xproltechn";
-                model = (char *)"SM-J3110";
+	if (bootloader.find("J3109") == 0) {
+                device = (char *)"j3ltectc";
+                model = (char *)"SM-J3109";
                 set_lte_properties();
-	}
-	else if (bootloader.find("J3119") == 0) {
-		device = (char *)"j3xproltectc";
-		model = (char *)"SM-J3119";
-		set_lte_properties();
 	}
 	else {
 		return;

@@ -19,8 +19,8 @@
 set -e
 
 # Required!
-export DEVICES="j3xproltechn j3xproltezc j3xproltectc"
-export DEVICE_COMMON=j3x-common
+export DEVICES="j3ltectc"
+export DEVICE_COMMON=j3-common
 export BOARD_COMMON=msm8916-common
 export VENDOR=samsung
 
